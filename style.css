@@ -13,8 +13,11 @@ body {
   display: block;
   text-align: right;
 }
-.header img {
-  width: 100%;
+figure {
+  margin: 0;
+}
+.header figure img {
+  width: 500px;
 }
 .more-inf {
   font-family: fantasy, cursive;
@@ -29,6 +32,10 @@ body {
   display: block;
   width: 500px;
   margin: 0 auto 0;
+}
+#add-section {
+  width: 100%;
+  margin: 16px 0;
 }
 .task {
   width: 56%;
